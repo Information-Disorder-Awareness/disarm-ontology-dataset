@@ -57,6 +57,6 @@ This dataset is licensed under the ...
 
 ## Contact
 
-<!--- For any questions or contributions, please contact [DISARM Foundation](mailto:contact@disarmfoundation.org). --->
+For any questions or contributions, please contact (mailto:dcavaliere@unisa.it), (mailto:gfenza@unisa.it), (mailto:dfurno@unisa.it).
 
 ---
