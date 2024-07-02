@@ -49,7 +49,14 @@ The dataset leverages an ontological representation to model disinformation inci
 
 If you use this dataset in your research, please cite the following paper:
 
-...
+@article{Cavaliere2024ASM,
+  title={A semantic model bridging DISARM framework and Situation Awareness for disinformation Attacks Attribution},
+  author={Danilo Cavaliere and Giuseppe Fenza and Domenico Furno and Vincenzo Loia},
+  journal={2024 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},
+  year={2024},
+  pages={55-62},
+  url={https://api.semanticscholar.org/CorpusID:270397452}
+}
 
 ## License
 
