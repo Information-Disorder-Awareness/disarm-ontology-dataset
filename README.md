@@ -11,6 +11,14 @@ The DISARM Ontology Dataset is a structured dataset designed for the analysis of
 - **Risk Assessment**: Supports the evaluation of disinformation risk levels.
 - **Research Utility**: Aids in understanding and mitigating disinformation threats.
 
+## Ontological Representation
+
+The dataset leverages an ontological representation to model disinformation incidents and campaigns. This includes:
+
+- **Entities and Relationships**: Defining key entities such as phases, tactics, techniques, and the relationships between them.
+- **Hierarchy and Classification**: Organizing attack patterns in a hierarchical structure for easy classification and analysis.
+- **Semantic Enrichment**: Enhancing the dataset with semantic annotations to improve data interoperability and reasoning capabilities.
+
 ## Dataset Contents
 
 - **Phases**: Various stages of disinformation campaigns.
