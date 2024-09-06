@@ -1,0 +1,998 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vistology.com/ont/2008/STO/STO.owl#"
+     xml:base="http://vistology.com/ont/2008/STO/STO.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://vistology.com/ont/2008/STO/STO.owl">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+   
+    Situation Theory Ontology by VIStology, Inc. 
+	
+	Copyright (c) 2013 VIStology, Inc., http://www.vistology.com/, Framingham, MA, USA
+
+    This file contains an OWL representation of information contained in the 
+    VIStology Knowledge Base. The content of this OWL file is licensed under the 
+    Creative Commons Attribution NonCommercial 3.0 Unported license whose text can 
+    be found at http://creativecommons.org/licenses/by-nc/3.0/legalcode. The content 
+    of this RDF/OWL file, including the VIStology Knowledgebase content it represents, 
+    constitutes the &quot;Work&quot; referred to in the Creative Commons license. The terms of 
+    this license equally apply to, without limitation, renamings and other logically 
+    equivalent reformulations of the content of this OWL file (or portions thereof) 
+    in any natural or formal language, as well as to derivations of this content or 
+    inclusion of it in other ontologies.
+   
+   </rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#anchor1 -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#anchor1">
+        <owl:inverseOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#anchor1Inverse"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#anchor1Inverse -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#anchor1Inverse">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#anchor2 -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#anchor2">
+        <owl:inverseOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#anchor2Inverse"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#anchor2Inverse -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#anchor2Inverse">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#anchor3 -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#anchor3">
+        <owl:inverseOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#anchor3Inverse"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#anchor3Inverse -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#anchor3Inverse">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#dimensionality -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#dimensionality">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Attribute"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Dimensionality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#focalIndividual -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#focalIndividual">
+        <rdfs:subPropertyOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#relevantIndividual"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#focalRelation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#focalRelation">
+        <rdfs:subPropertyOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#relevantRelation"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#PropertyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#focalSituation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#focalSituation">
+        <owl:inverseOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#utteranceSituation"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#hasAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#hasAttribute">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Individual"/>
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Attribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#hasAttributeValue -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#hasAttributeValue">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Attribute"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Value"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#impliedByRule -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#impliedByRule">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#PropertyRelation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Rule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#involves -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#involves">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#par1Type -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#par1Type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Relation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#par2Type -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#par2Type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Relation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#par3Type -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#par3Type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Relation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#polarity -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#polarity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Polarity"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#fuzzyPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#query -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#query">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#referringSituation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#referringSituation">
+        <owl:inverseOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#resourceSituation"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#relation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#relation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#PropertyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#relevantIndividual -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#relevantIndividual">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Individual"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#relevantRelation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#relevantRelation">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#PropertyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#relevantSituation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#relevantSituation">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#FocalSituation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ResourceSituation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#resourceSituation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#resourceSituation">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#supportedBySituation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#supportedBySituation">
+        <owl:inverseOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#supportedInfon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#supportedInfon -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#supportedInfon">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#utterance -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#utterance">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#UtteranceSituation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Utterance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#utteranceSituation -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#utteranceSituation">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#utteredBy -->
+
+    <owl:ObjectProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#utteredBy">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Utterance"/>
+        <rdfs:range rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#attributeValue -->
+
+    <owl:DatatypeProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#attributeValue">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Value"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#certainty -->
+
+    <owl:DatatypeProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#certainty">
+        <rdfs:domain rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Value"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#fuzzyPolarity -->
+
+    <owl:DatatypeProperty rdf:about="http://vistology.com/ont/2008/STO/STO.owl#fuzzyPolarity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#ATTR -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#ATTR">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attribute types.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Agent -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Agent">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Individual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Attribute -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Attribute">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#BEH -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#BEH">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#DIM -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#DIM">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dimensionality types.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Dimensionality -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Dimensionality">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Event -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Event">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#FocalSituation -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#FocalSituation">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#IND -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#IND">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual types.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#INF -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#INF">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Individual -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Individual">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Location -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Location">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Object -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#PROP -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#PROP">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proposition types.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Polarity -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Polarity">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#PropertyRelation -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#PropertyRelation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Relation"/>
+                    <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Proposition -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Proposition">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#RELn -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#RELn">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relation types.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#RUL -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#RUL">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rule types.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Relation -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Relation">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#RelevantIndividual -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#RelevantIndividual">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Individual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#ResourceSituation -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#ResourceSituation">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Rule -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Rule">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#SIT -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#SIT">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Situation types.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Sentence -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Sentence">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Situation -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Situation">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#TYP -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#TYP">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Types of classes in situation semantics framework.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Time -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Time">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Utterance -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Utterance">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Individual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#UtteranceSituation -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#UtteranceSituation">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#VAL -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#VAL">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Value types.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Value -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Value">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Velocity -->
+
+    <owl:Class rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Velocity">
+        <rdfs:subClassOf rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Class -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Class"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Agent -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Agent">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#IND"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Attribute -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Attribute">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ATTR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Dimensionality -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Dimensionality">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#DIM"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#ElementaryInfon">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#INF"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Event -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Event">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#FocalSituation -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#FocalSituation">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Individual -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Individual">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#IND"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Location -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Location">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ATTR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Object -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Object">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#TYP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Polarity -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Polarity">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#VAL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Proposition -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Proposition">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#PROP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Relation -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Relation">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#RELn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#RelevantIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#RelevantIndividual">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#IND"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#ResourceSituation -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#ResourceSituation">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Rule -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Rule">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#RUL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Sentence -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Sentence">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ATTR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Situation -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Situation">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Str -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Str">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Dimensionality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Time -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Time">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ATTR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#UtteranceSituation -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#UtteranceSituation">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#SIT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Value -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Value">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#VAL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#Velocity -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#Velocity">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#ATTR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#_0 -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#_0">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Polarity"/>
+        <attributeValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</attributeValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#_1 -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#_1">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Polarity"/>
+        <attributeValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</attributeValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#location -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#location">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Relation"/>
+        <par1Type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+        <par2Type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#m -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#m">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Dimensionality"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#mps -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#mps">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Dimensionality"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meters per second</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#s -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#s">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Dimensionality"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">second</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vistology.com/ont/2008/STO/STO.owl#velocity -->
+
+    <owl:NamedIndividual rdf:about="http://vistology.com/ont/2008/STO/STO.owl#velocity">
+        <rdf:type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Relation"/>
+        <par1Type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Object"/>
+        <par2Type rdf:resource="http://vistology.com/ont/2008/STO/STO.owl#Velocity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#FocalSituation">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aka described situation. This is the situation of interest at a given time.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#ResourceSituation">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource situations are those that exist and to which utterance situations refer.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vistology.com/ont/2008/STO/STO.owl#UtteranceSituation">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utterance (goal, query, assertion).</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
