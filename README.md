@@ -54,7 +54,7 @@ The ontological representation to model disinformation incidents and campaigns i
 3. **Analysis**: Apply various analytical techniques to extract insights.
 4. **Risk Evaluation**: Use the dataset to assess the risk levels of different disinformation techniques.
 
-## Contributions
+### Contributions
 
 - **Ontology-based Situational Awareness**: Enables modeling of disinformation incidents for extraction of attack patterns.
 - **High-Risk Itemset Mining**: Analyzes threat actor behaviors and assesses the risk levels of disinformation techniques.
